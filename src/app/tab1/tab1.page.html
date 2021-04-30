@@ -1,17 +1,78 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
+  <ion-toolbar color="danger">
+    <ion-title class="ion-text-center">
+      Pizzas
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-item mt-5>
+    <ion-thumbnail slot="start">
+      <img src="https://blog.novasafra.com.br/wp-content/uploads/2016/01/accb7d_37d37d9f1001e88384dafc6e5cc60c4f.jpg_1024.jpg">
+    </ion-thumbnail>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <ion-label class="ion-text-wrap">
+      <div>
+        <h2>Calabresa</h2>
+        <h4><p>Mussarela, calabresa, cebola e orégano.</p></h4>
+        <ion-badge slot="end" color="danger">R$ 23,00</ion-badge>
+      </div>
+
+    </ion-label>
+  </ion-item>
+
+<ion-item mt-5>
+  <ion-thumbnail slot="start">
+    <img src="https://www.sesc-rs.com.br/wp-content/uploads/2017/07/PIZZA-DE-BROCOLIS-Livro-de-Receitas-Mesa-Brasil-Sesc_foto-Divulgacao.jpg">
+  </ion-thumbnail>
+  <ion-label class="ion-text-wrap">
+
+    <div>
+      <h2>Brócolis</h2>
+      <h4><p>Mussarela, brócolis, catupiry e bacon.</p></h4>
+      <ion-badge slot="end" color="danger">R$ 22,75</ion-badge>
+    </div>
+
+  </ion-label>
+</ion-item>
+
+<ion-item mt-5>
+  <ion-thumbnail slot="start">
+    <img src="https://www.clonepizza.com.br/wp-content/uploads/PORTUGUESA-1.jpg">
+  </ion-thumbnail>
+  <ion-label class="ion-text-wrap">
+    <div>
+      <h2>Portuguesa</h2>
+      <h4><p>Mussarela, presunto, calabresa, ervilha, ovos, palmito, cebola, azeitona preta, bacon e orégano.</p></h4>
+      <ion-badge slot="end" color="danger">R$ 27,50</ion-badge>
+  </div>
+  </ion-label>
+</ion-item>
+
+<ion-item mt-5>
+  <ion-thumbnail slot="start">
+    <img src="https://img.cybercook.com.br/receitas/550/pizza-pan-4-queijos-2.png">
+  </ion-thumbnail>
+  <ion-label class="ion-text-wrap">
+    <div>
+      <h2>4 Queijos</h2>
+      <h4><p>Mussarela, parmesão, catupiry, provolone, azeitonas e orégano.</p></h4>
+      <ion-badge slot="end" color="danger">R$ 20,00</ion-badge>
+  </div>
+  </ion-label>
+</ion-item>
+
+<ion-item mt-5>
+  <ion-thumbnail slot="start">
+    <img src="https://i0.statig.com.br/bancodeimagens/3n/0t/fy/3n0tfy3kn0jv6lkafc4cyc41u.jpg">
+  </ion-thumbnail>
+  <ion-label class="ion-text-wrap">
+    <div>
+      <h2>Marguerita</h2>
+      <h4><p>Mussarela, tomate, manjericão, queijo parmesão e orégano.</p></h4>
+      <ion-badge slot="end" color="danger">R$ 25,00</ion-badge>
+    </div>
+  </ion-label>
+</ion-item>
 </ion-content>
